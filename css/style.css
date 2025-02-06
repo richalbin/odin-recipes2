@@ -1,4 +1,44 @@
 img {
-    width: 40%;
-    height: auto; /* Automatically adjusts height */
+	width: 40%;
+	height: auto; /* Automatically adjusts height */
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #f8f1e5;
+	color: #333333;
+}
+
+h1 {
+	/* color: #4A2c2a; */
+	font-size: 300%;
+	color: #922b21;
+}
+
+h2,
+h3 {
+	font-size: 175%;
+	color: #6d4c41;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+li {
+	color: #333;
+	padding: 15px;
+	background: #fff8e7;
+	margin: 10px 0;
+	border-radius: 8px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+	font-size: 1.2rem;
+    text-decoration: none;
+    color: #333333;
 }
